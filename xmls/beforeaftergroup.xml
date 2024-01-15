@@ -3,7 +3,7 @@
     <test name="Configuration Methods Example"> <!--BEFORE TEST-->
         <groups>
             <run>
-                <include name="group1"/>
+                <include name="group1"/>  <!--BEFORE GROUP--> <!--AFTER GROUP-->
             </run>
         </groups>
         <classes>

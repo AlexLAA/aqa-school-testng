@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Google Search" parallel="tests">
+<suite name="Google Search" parallel="tests" thread-count="5">
     <test name="Famous Person Special Block: Tom Brady">
         <parameter name="name" value="Tom Brady"/>
         <classes>
