@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="IMDB">
+    <test name="Top 250 Page">
+        <classes>
+            <class name="lesson.Top250PageTest"/>
+        </classes>
+    </test>
+</suite>

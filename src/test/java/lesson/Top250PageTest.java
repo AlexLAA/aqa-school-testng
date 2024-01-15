@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 /**
  * Created by Lolik on 12.01.2024
  */
-public class FirstSelenideTest {
+public class Top250PageTest {
 
   @Test
   public void top250MoviesPageTitle() {

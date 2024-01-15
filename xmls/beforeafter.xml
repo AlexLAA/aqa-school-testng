@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Configuration Methods Execution Order Example"> <!--BEFORE SUITE-->
+    <test name="Configuration Methods Example"> <!--BEFORE TEST-->
+        <classes>
+            <class name="lesson.configuration.AllConfigurationMethodsExample"> <!--BEFORE CLASS-->
+                <methods>
+                    <include name="test1"/> <!--BEFORE METHOD-->
+                </methods>
+            </class> <!--AFTER CLASS-->
+        </classes>
+    </test> <!--AFTER TEST-->
+</suite> <!--AFTER SUITE-->

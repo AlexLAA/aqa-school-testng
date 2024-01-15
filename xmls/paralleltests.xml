@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Google Search" parallel="tests">
+    <test name="Famous Person Special Block: Tom Brady">
+        <parameter name="name" value="Tom Brady"/>
+        <classes>
+            <class name="lesson.parameters.FamousPersonParametrizedTest"/>
+        </classes>
+    </test>
+    <test name="Famous Person Special Block: Tom Cruise">
+        <parameter name="name" value="Tom Cruise"/>
+        <classes>
+            <class name="lesson.parameters.FamousPersonParametrizedTest"/>
+        </classes>
+    </test>
+</suite>
